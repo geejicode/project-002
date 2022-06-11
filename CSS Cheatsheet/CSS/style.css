@@ -1,0 +1,116 @@
+/* {
+    margin: 0px;
+    padding: 0px;
+
+    this is if you don't want to be confused by the standard settings for each element
+} */
+.clr{
+    clear: both;
+}
+
+body{
+    background-color: blanchedalmond;
+    color: green;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* Same as above (simpler) */
+    font: bold 20px 'Times New Roma', Times, serif;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+.container{
+    width: 80%;
+    /* Use % for containers */
+    margin: auto;
+}
+.box-1{
+    background-color: burlywood;
+
+    border-right: 5px green solid;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box-1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box-2{
+    border: 3px dotted burlywood;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.categories{
+    border: 1px burlywood solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.categories li{
+    padding: 3px;
+    border-bottom: dotted 1px burlywood;
+    /* list-style-image: ; <- used for images for check boxes */
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding: 20px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid burlywood;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    background-color: burlywood;
+    box-sizing: border-box;
+}
